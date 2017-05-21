@@ -32,17 +32,17 @@
       name: 'Shirt',
       quantity: 1
     }, {
-      name: 'Pizza',
+      name: 'Pizzas',
       quantity: 5
     }, {
       name: 'Jeans',
-      quantity: 100
+      quantity: 12
     }, {
-      name: 'Muffin',
-      quantity: 25
+      name: 'Muffins',
+      quantity: 27
     }, {
       name: 'Shoes',
-      quantity: 1234
+      quantity: 2
     }];
 
     var itemsToBuy = CATALOG;
