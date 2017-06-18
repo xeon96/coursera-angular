@@ -1,29 +1,20 @@
-<!DOCTYPE html>
-<html ng-app='MenuApp'>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Restaurant</title>
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
-  <body>
-    <h1>Welcome to our Restaurant</h1>
-
+  <body ng-app="MenuApp">
     <ui-view></ui-view>
-
-    <!-- Libraries -->
-    <script src="lib/angular.min.js"></script>
-    <script src="lib/angular-ui-router.min.js"></script>
-
-    <!-- Modules -->
-    <script src="src/menuapp.module.js"></script>
-    <script src="src/data.module.js"></script>
-
-    <!-- Module artifacts -->
-    <script src="src/menudata.service.js"></script>
-    <script src="src/categories.component.js"></script>
-    <script src="src/items.component.js"></script>
-    <script src="src/routes.js"></script>
-    <script src="src/categories.controller.js"></script>
-    <script src="src/items.controller.js"></script>
-
+    <script src = "js/vendor/angular.min.js" ></script>
+    <script src = "js/vendor/angular-ui-router.min.js" ></script>
+    <script src = "js/modules/data.module.js" ></script>
+    <script src = "js/modules/menuapp.module.js" ></script>
+    <script src = "js/routes.js" ></script>
+    <script src = "js/services/menudata.service.js" ></script>
+    <script src = "js/components/categories/menuCategories.controller.js" ></script>
+    <script src = "js/components/categories/categories.component.js" ></script>
+    <script src = "js/components/items/categoryItems.controller.js" ></script>
+    <script src = "js/components/items/items.component.js" ></script>
   </body>
 </html>
